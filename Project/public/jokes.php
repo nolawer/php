@@ -20,7 +20,7 @@ try {
 
     // 템플릿을 include한다. php코드가 실행되지만
     // 결과 html은 브라우저로 전송되지 않고
-    // 버퍼에 저장된다.
+    // 버퍼에 저장된다..
 
     include __DIR__ . '/../templates/jokes.html.php';
 
