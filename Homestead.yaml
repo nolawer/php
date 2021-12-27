@@ -5,12 +5,13 @@ cpus: 1
 provider: virtualbox
 
 folders:
-    - map: .
+    - map: /Users/nolawer/my_project
       to: /home/vagrant/Code
 
 sites:
     - map: homestead.test
       to: /home/vagrant/Code/Project/public
+      php: "7.3"
 
 databases:
     - homestead
